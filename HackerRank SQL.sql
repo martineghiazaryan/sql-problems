@@ -28,3 +28,18 @@
 -- Students who score 75, sort them by last 3 caracters in name and secondary sort them by ascending id
 -- select name from students where marks > 75 order by right(name,3),id asc;
 
+-- Naomi(P) 
+-- Priya(D) 
+-- Priyanka(P) 
+-- Samantha(A) 
+-- There are a total of 3 doctors. 
+-- There are a total of 4 actors.
+
+-- SELECT CONCAT(Name,'(',left(occupation,1),')') as NAME 
+-- FROM OCCUPATIONS
+-- ORDER BY NAME;
+
+-- SELECT CONCAT('There are a total of ', COUNT(Occupation), ' ', LOWER(Occupation), 's.') as TOTALS
+-- FROM OCCUPATIONS
+-- GROUP BY Occupation
+-- ORDER BY TOTALS;
