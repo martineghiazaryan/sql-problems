@@ -42,4 +42,8 @@
 -- SELECT CONCAT('There are a total of ', COUNT(Occupation), ' ', LOWER(Occupation), 's.') as TOTALS
 -- FROM OCCUPATIONS
 -- GROUP BY Occupation
--- ORDER BY TOTALS;
+-- ORDER BY TOTALS;      
+
+
+
+
